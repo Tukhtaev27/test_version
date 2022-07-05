@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+header{
+    display: flex;
+    height: 70px;
+    width: 1200px;
+    margin-top: 30px;
+    background-color: rgb(241, 202, 208);
+}
+.unordered-list{
+    list-style: none;
+    display: flex;
+    margin-left: 250px;
+}
+.list{
+    padding-left: 50px;
+    padding-top: 12px;
+}
+.strong{
+    color: rgb(223, 91, 113);
+}
+.button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(223, 91, 113);
+    cursor: pointer;
+    border: 1px solid rgb(223, 91, 113);
+    margin-left: 100px;
+    color: white;
+    font-weight: 600;
+}
+.button-2{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(223, 91, 113);
+    cursor: pointer;
+    border: 1px solid rgb(223, 91, 113);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+main{
+    width: 1200px;
+}
+span{
+    font-size: 12px;
+}
+.section-1{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    background-color: rgb(241, 202, 208);
+}
+h1{
+    font-size: 35px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left-side{
+    flex: 1;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.right-side{
+    flex: 1;
+}
+.ice-cream{
+    width: 600px;
+    height: 500px;
+}
+.sugar-h2{
+    font-size: 28px;
+    line-height: 28px;
+}
+.button-3{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(223, 91, 113);
+    cursor: pointer;
+    border: 1px solid rgb(223, 91, 113);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.section-2{
+    width: 1200px;
+    display: flex;
+    background-color: rgb(241, 202, 208);
+}
+.left-part{
+    flex: 1;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.right-part{
+    flex: 1;
+}
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.unordered-list-2{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.list-2{
+    list-style: none;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.list-2:first-child{
+    border-bottom-color: rgb(194, 78, 97);
+}
+.section-container{
+    width: 1200px;
+    display: flex;
+}
+.left-container{
+    flex: 1;
+    
+}
+.right-container{
+    flex: 1;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.prices{
+    display: flex;
+}
+.price-1{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.price-2{
+    font-size: 16px;
+    padding-left: 20px;
+    color: #cecece;
+    padding-top: 4px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(223, 91, 113);
+    cursor: pointer;
+    border: 1px solid rgb(223, 91, 113);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.form-title{
+ font-size: 30px;
+ line-height: 30px;
+ text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.input-1{
+    width: 250px;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+}
+.input-1:hover{
+    transition: 3s;
+    border-color: rgb(188, 80, 98);
+}
+.input-2{
+    width: 250px;
+    height: 50px;
+    outline: none;
+    margin-left: 25px;
+    padding-left: 20px;
+}
+.input-2:hover{
+    transition: 3s;
+    border-color: rgb(188, 80, 98);
+}
+.input-3{
+    padding-left: 20px;
+    width: 430px;
+    height: 50px;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.btn-2{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(223, 91, 113);
+    border: 1px solid rgb(223, 91, 113);
+    color: white;
+    font-weight: 600px;
+    cursor: pointer;
+}
+footer{
+    width: 1200px;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    display: flex;
+    margin-top: 50px;
+}
+.social-media{
+    display: flex;
+    margin-top: 20px;
+}
+.list-3{
+    list-style: none;
+    padding-left: 10px;
+}
+.footer-box{
+    padding-left: 100px;
+}
+.ul-1{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.ul-2{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.list-4{
+    list-style: none;
+    padding-top: 20px;
+}
+.last-form{
+    display: flex;
+}
+.last-input{
+    width: 200px;
+    height: 40px;
+}
+.last-btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(201, 88, 106);
+    color: white;
+    font-weight: 600;
+}
+.last-box{
+    margin-left: 75px;
+    padding-top: 70px;
+}
+.img-vector{
+    padding-top: 20px;
+}
